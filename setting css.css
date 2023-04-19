@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.button-31{
+  background-color: #2F80ED;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.button-31:hover,
+.button-31:focus {
+  opacity: .75;
+}
+.homebox{
+    margin: 0 auto;
+    display: inline-block;
+    width: 400px;
+    height: 900px;
+    background-color: #2F80ED;  
+    vertical-align: middle;
+
+}
+.btn1{
+    height: 60px;
+    width: 300px;
+    margin: 0 auto;
+    max-width: 400xp;
+    margin-top: 249px ;
+    margin-left: 0px;
+}
+.btn2{
+    height: 60px;
+    width: 200px;
+    margin: 0 auto;
+    margin-left: 35px;
+    max-width: 400xp;
+    
+}
+.btn3{
+    height: 60px;
+    width: 300px;
+    margin-top: 348px;
+}
+.homelogo{
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 72px;
+    margin-left: 47px;
+    
+}
+h3{
+    display: inline-block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF
+}
+.analytical{
+    width: 1100px;
+    height: 900px;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 0px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.everything{
+    margin:auto;
+    max-width: 1700px;
+    padding-left: auto;
+}
+.inputbox{
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 100%;
+    margin-left: 50px;
+    
+}
+div input{
+    width: 60px;
+    font-size: 30px;
+}
+label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    padding-top: 20px;
+
+}
+.settingtxt{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #515151;
+    margin: 0 auto;
+    margin-top: 65px;
+    margin-left: 50px;
+}
+.container {
+    width: 400px;
+    height: 75px;
+    background: #FFFFFF;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 35px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    
+  }
+.checkmark {
+    position: absolute;
+    top: 15px;
+    left: 332px;
+    height: 40px;
+    width: 40px;
+    background: #FFFFFF;
+    border: 1px solid #4F4F4F;
+    
+
+}
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+  
+.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.container input:checked ~ .checkmark:after {
+    display: block;
+} 
+.container .checkmark:after {
+    left: 8px;
+    top: 5px;
+    width: 18px;
+    height: 22px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.passwordinput{
+    font-size: 50px;
+    margin-top: -102px;
+    margin-left: 150px;
+    width: 240px;
+    border: none ;
+    position: absolute;
+}
